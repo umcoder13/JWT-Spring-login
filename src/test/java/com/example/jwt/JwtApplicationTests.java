@@ -17,8 +17,15 @@ import java.util.List;
 @Transactional
 class JwtApplicationTests {
 
+	@Test
+	void testHello() {
+		System.out.println("Hello World!");
+	}
+
+	/*
 	@Autowired
 	ArticleRepository repository;
+
 
 	@Test
 	void contextLoads() {
@@ -28,6 +35,7 @@ class JwtApplicationTests {
 		}
 	}
 
+
 	@Test
 	public void querydsl() throws Exception {
 		Page<PageResponseDto> dtos = repository.searchAll(PageRequest.of(1, 10));
@@ -36,5 +44,7 @@ class JwtApplicationTests {
 		}
 
 	}
+	*/
+
 
 }
