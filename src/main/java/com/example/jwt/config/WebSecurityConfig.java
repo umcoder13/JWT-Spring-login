@@ -63,7 +63,7 @@ public class WebSecurityConfig {
         CorsConfiguration config = new CorsConfiguration();
 
         config.addAllowedOrigin("http://localhost:3000");
-        config.addAllowedOrigin("http://54.180.144.186");
+        config.addAllowedOrigin("http://43.200.229.33");
         config.setAllowCredentials(true);
 
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
