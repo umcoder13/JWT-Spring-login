@@ -64,8 +64,8 @@ public class WebSecurityConfig {
 
         config.addAllowedOrigin("http://localhost:3000");
         config.addAllowedOrigin("http://43.200.229.33");
-        config.addAllowedHeader("*");
         config.addAllowedMethod("*");
+        config.addAllowedHeader("*");
         config.setAllowCredentials(true);
 
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
