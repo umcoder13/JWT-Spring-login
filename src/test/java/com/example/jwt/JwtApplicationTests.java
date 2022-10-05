@@ -16,10 +16,12 @@ import java.util.List;
 @SpringBootTest
 class JwtApplicationTests {
 
+	/*
 	@Test
 	void testHello() {
 		System.out.println("Hello World!");
 	}
+	 */
 
 	/*
 	@Autowired
