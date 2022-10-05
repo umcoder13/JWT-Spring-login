@@ -14,7 +14,6 @@ import javax.persistence.PersistenceContext;
 import java.util.List;
 
 @SpringBootTest
-@Transactional
 class JwtApplicationTests {
 
 	@Test
