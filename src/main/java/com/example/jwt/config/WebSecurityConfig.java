@@ -66,6 +66,7 @@ public class WebSecurityConfig {
 
         config.addAllowedOrigin("http://localhost:3000");
         config.addAllowedOrigin("http://43.200.229.33");
+        config.addAllowedOrigin("http://react-juno.xyz");
         config.addAllowedMethod("*");
         config.addAllowedHeader("*");
         config.setAllowCredentials(true);
